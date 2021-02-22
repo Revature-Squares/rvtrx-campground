@@ -8,7 +8,7 @@ import { Image } from './image.model';
  *
  * ```yaml
  * id: string;
- * location: Location;
+ * address: address;
  * name: string;
  * bathrooms: number;
  * rentals: Rental[];

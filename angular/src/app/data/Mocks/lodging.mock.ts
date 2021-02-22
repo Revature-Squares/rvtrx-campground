@@ -3,16 +3,13 @@ import { Lodging } from '../lodging.model';
 export const testLodgings: Lodging[] = [
   {
     id: 1,
-    location: {
+    address: {
       id: '',
-      address: {
-        id: '',
-        city: '',
-        postalCode: '',
-        country: '',
-        stateProvince: '',
-        street: '',
-      },
+      city: '',
+      postalCode: '',
+      country: '',
+      stateProvince: '',
+      street: '',
       latitude: '',
       longitude: '',
     },
@@ -36,16 +33,13 @@ export const testLodgings: Lodging[] = [
   },
   {
     id: 1,
-    location: {
+    address: {
       id: '',
-      address: {
-        id: '',
-        city: '',
-        postalCode: '',
-        country: '',
-        stateProvince: '',
-        street: '',
-      },
+      city: '',
+      postalCode: '',
+      country: '',
+      stateProvince: '',
+      street: '',
       latitude: '',
       longitude: '',
     },
@@ -59,16 +53,13 @@ export const testLodgings: Lodging[] = [
 
 export const lodging: Lodging = {
   id: 1,
-  location: {
+  address: {
     id: '1',
-    address: {
-      id: '1',
-      city: 'testCity',
-      country: 'testCountry',
-      postalCode: 'testCode',
-      stateProvince: 'testState',
-      street: 'testStreet',
-    },
+    city: 'testCity',
+    country: 'testCountry',
+    postalCode: 'testCode',
+    stateProvince: 'testState',
+    street: 'testStreet',
     latitude: 'testLat',
     longitude: 'testLong',
   },
@@ -82,16 +73,13 @@ export const lodging: Lodging = {
 export const lodgings: Lodging[] = [
   {
     id: 1,
-    location: {
-      id: '',
       address: {
-        id: '',
-        city: '',
-        country: '',
-        postalCode: '',
-        stateProvince: '',
-        street: '',
-      },
+      id: '',
+      city: '',
+      country: '',
+      postalCode: '',
+      stateProvince: '',
+      street: '',
       latitude: '',
       longitude: '',
     },
@@ -126,16 +114,13 @@ export const lodgings: Lodging[] = [
 export const lodgingMock: Lodging[] = [
   {
     id: 1,
-    location: {
-      id: 'string',
       address: {
-        id: 'string',
-        city: 'string',
-        country: 'string',
-        postalCode: 'string',
-        stateProvince: 'string',
-        street: 'string',
-      },
+      id: 'string',
+      city: 'string',
+      country: 'string',
+      postalCode: 'string',
+      stateProvince: 'string',
+      street: 'string',
       latitude: 'string',
       longitude: 'string',
     },

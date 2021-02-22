@@ -18,16 +18,13 @@ describe('BookingComponent', () => {
       return of([
         {
           id: 1,
-          location: {
-            id: '',
             address: {
-              id: '',
-              city: '',
-              country: '',
-              postalCode: '',
-              stateProvince: '',
-              street: '',
-            },
+            id: '',
+            city: '',
+            country: '',
+            postalCode: '',
+            stateProvince: '',
+            street: '',
             latitude: '',
             locale: '',
             longitude: '',

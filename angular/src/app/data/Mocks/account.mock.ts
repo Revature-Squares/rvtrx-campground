@@ -9,6 +9,8 @@ export const account: Account = {
 
     city: '',
     country: '',
+    latitude: '',
+    longitude: '',
     postalCode: '',
     stateProvince: '',
     street: '',
@@ -25,6 +27,8 @@ export const accountMock: Account = {
     id: 'string',
     city: 'string',
     country: 'string',
+    latitude: 'string',
+    longitude: 'string',
     postalCode: 'string',
     stateProvince: 'string',
     street: 'string',
