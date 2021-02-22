@@ -1,4 +1,3 @@
-import { RentalUnit } from './rental-unit.model';
 /**
  * Represents the _Rental_ modei
  *
@@ -30,7 +29,7 @@ export interface Rental {
    *      water:string
    *      ```
    */
-  unit: RentalUnit;
+
   /** booking status, one of:
    *  - available (neither booked nor currently in use)
    *  - booked (booked by someone else, but not in use)
