@@ -34,8 +34,8 @@ export class FeaturedLodgingComponent implements OnChanges {
       const availableCountByType: Map<string, number> = new Map<string, number>();
       let thisLotType = null;
       for (const thisLot of thisLodging.rentals) {
-        if (thisLot.unit) {
-          thisLotType = thisLot.unit.name;
+        if (thisLot) {
+          thisLotType = thisLot.SiteName;
 
           if (lodgingLotTypes.indexOf(thisLotType) === -1) {
             lodgingLotTypes.push(thisLotType);
