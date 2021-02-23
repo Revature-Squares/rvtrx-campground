@@ -24,7 +24,6 @@ describe('RentalComponent', () => {
     expect(component).toBeTruthy();
   });
 
-
   it('should test the length of the rows', () => {
     const tableRows = fixture.nativeElement.querySelectorAll('tr');
     expect(tableRows.length).toBe(3);
@@ -47,6 +46,5 @@ describe('RentalComponent', () => {
       status: 'available',
       price: 100,
     };
-
   });
 });

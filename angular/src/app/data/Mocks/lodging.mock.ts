@@ -22,9 +22,9 @@ export const testLodgings: Lodging[] = [
       {
         id: '1',
         lotNumber: '1',
-          size: '5x5',
-          capacity: 2,
-          SiteName: 'tent',
+        size: '5x5',
+        capacity: 2,
+        SiteName: 'tent',
 
         status: 'available',
         price: 100,
