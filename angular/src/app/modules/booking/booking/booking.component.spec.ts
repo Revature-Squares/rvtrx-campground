@@ -37,11 +37,9 @@ describe('BookingComponent', () => {
             {
               id: '1',
               lotNumber: '1',
-              unit: {
-                size: '5x5',
-                capacity: 2,
-                name: 'tent',
-              },
+              size: '5x5',
+              capacity: 2,
+              SiteName: 'tent',
               status: 'available',
               price: 100,
             },

@@ -53,6 +53,10 @@
   "scripts": {
     "audit": "prettier --config ../.prettierrc.yaml --ignore-path ../.prettierignore --check ./",
     "build": "ng build",
+<<<<<<< HEAD
+=======
+    "pree2e": "node ./node_modules/protractor/bin/webdriver-manager update --versions.chrome=86.0.4240.22 --gecko false --standalone false",
+>>>>>>> c672039... deleted rental unit model and moved the unit info into rental model
     "e2e": "ng e2e",
     "format": "prettier --config ../.prettierrc.yaml --ignore-path ../.prettierignore --write ./",
     "lint": "ng lint",

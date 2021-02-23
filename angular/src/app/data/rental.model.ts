@@ -43,4 +43,7 @@ export interface Rental {
   discountedPrice?: number;
   /** to identify which lodging rentals are booked */
   lodgingRentalId?: number;
+  size: string;
+  capacity: number;
+  SiteName: string;
 }
