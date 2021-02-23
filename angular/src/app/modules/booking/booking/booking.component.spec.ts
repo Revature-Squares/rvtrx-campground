@@ -37,15 +37,9 @@ describe('BookingComponent', () => {
             {
               id: '1',
               lotNumber: '1',
-<<<<<<< HEAD
               size: '5x5',
               capacity: 2,
               SiteName: 'tent',
-=======
-                size: '5x5',
-                capacity: 2,
-                SiteName: 'tent',
->>>>>>> 1e95a88... fixed issues in testing with rental-unit
               status: 'available',
               price: 100,
             },
