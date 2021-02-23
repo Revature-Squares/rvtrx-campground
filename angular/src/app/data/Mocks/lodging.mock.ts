@@ -22,11 +22,10 @@ export const testLodgings: Lodging[] = [
       {
         id: '1',
         lotNumber: '1',
-        unit: {
           size: '5x5',
           capacity: 2,
-          name: 'tent',
-        },
+          SiteName: 'tent',
+
         status: 'available',
         price: 100,
       },
@@ -100,9 +99,15 @@ export const lodgings: Lodging[] = [
       {
         id: '1',
         lotNumber: '1',
+<<<<<<< HEAD
         size: '5x5',
         capacity: 2,
         SiteName: 'tent',
+=======
+          size: '5x5',
+          capacity: 2,
+          SiteName: 'tent',
+>>>>>>> 1e95a88... fixed issues in testing with rental-unit
         status: 'available',
         price: 100,
       },
