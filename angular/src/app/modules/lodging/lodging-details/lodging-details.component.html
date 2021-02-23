@@ -3,6 +3,7 @@
     <div class="container">
       <br />
       <h1 class="title is-2">lodging</h1>
+      <!--First picture, size 16 by 9-->
       <div class="tile is-ancestor">
         <div class="tile is-6 is-parent is-vertical">
           <div class="tile is-child">
@@ -26,9 +27,11 @@
             </figure>
           </div>
         </div>
+        <!--Other pictures, size 5 by 3-->
         <div class="tile is-vertical">
           <div class="tile">
             <div class="tile is-parent is-vertical">
+              <!--Top left-->
               <div class="tile is-child">
                 <figure class="image is-5by3">
                   <div *ngIf="!lodging.images || lodging.images.length < 2">
@@ -42,6 +45,7 @@
                   </div>
                 </figure>
               </div>
+              <!--Bottom left-->
               <div class="tile is-child">
                 <figure class="image is-5by3">
                   <div *ngIf="!lodging.images || lodging.images.length < 2">
@@ -57,6 +61,7 @@
               </div>
             </div>
             <div class="tile is-parent is-vertical">
+              <!--Top, second from left-->
               <div class="tile is-child">
                 <figure class="image is-5by3">
                   <div *ngIf="!lodging.images || lodging.images.length < 2">
@@ -70,6 +75,7 @@
                   </div>
                 </figure>
               </div>
+              <!--Bottom, second from left-->
               <div class="tile is-child">
                 <figure class="image is-5by3">
                   <div *ngIf="!lodging.images || lodging.images.length < 2">
@@ -85,6 +91,7 @@
               </div>
             </div>
             <div class="tile is-parent is-vertical">
+              <!--etc.-->
               <div class="tile is-child">
                 <figure class="image is-5by3">
                   <div *ngIf="!lodging.images || lodging.images.length < 2">
@@ -113,6 +120,8 @@
               </div>
             </div>
           </div>
+
+          <!--Lodging name-->
           <div class="tile is-parent">
             <div class="tile box has-background-dark is-child">
               <div class="level">
