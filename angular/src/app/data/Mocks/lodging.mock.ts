@@ -73,7 +73,7 @@ export const lodging: Lodging = {
 export const lodgings: Lodging[] = [
   {
     id: 1,
-      address: {
+    address: {
       id: '',
       city: '',
       country: '',
@@ -114,7 +114,7 @@ export const lodgings: Lodging[] = [
 export const lodgingMock: Lodging[] = [
   {
     id: 1,
-      address: {
+    address: {
       id: 'string',
       city: 'string',
       country: 'string',
