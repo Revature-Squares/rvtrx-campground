@@ -2,9 +2,9 @@ import { Lodging } from '../lodging.model';
 
 export const testLodgings: Lodging[] = [
   {
-    id: 1,
+    entityId: 1,
     address: {
-      id: '',
+      entityId: '',
       city: '',
       postalCode: '',
       country: '',
@@ -19,11 +19,9 @@ export const testLodgings: Lodging[] = [
       {
         id: '1',
         lotNumber: '1',
-        unit: {
-          size: '5x5',
-          capacity: 2,
-          name: 'tent',
-        },
+        size: '5x5',
+        capacity: 2,
+        siteName: 'tent',
         status: 'available',
         price: 100,
       },
@@ -32,9 +30,9 @@ export const testLodgings: Lodging[] = [
     images: [],
   },
   {
-    id: 1,
+    entityId: 1,
     address: {
-      id: '',
+      entityId: '',
       city: '',
       postalCode: '',
       country: '',
@@ -52,9 +50,9 @@ export const testLodgings: Lodging[] = [
 ];
 
 export const lodging: Lodging = {
-  id: 1,
+  entityId: 1,
   address: {
-    id: '1',
+    entityId: '1',
     city: 'testCity',
     country: 'testCountry',
     postalCode: 'testCode',
@@ -72,9 +70,9 @@ export const lodging: Lodging = {
 
 export const lodgings: Lodging[] = [
   {
-    id: 1,
+    entityId: 1,
     address: {
-      id: '',
+      entityId: '',
       city: '',
       country: '',
       postalCode: '',
@@ -88,11 +86,9 @@ export const lodgings: Lodging[] = [
       {
         id: '1',
         lotNumber: '1',
-        unit: {
-          size: '5x5',
-          capacity: 2,
-          name: 'tent',
-        },
+        size: '5x5',
+        capacity: 2,
+        siteName: 'tent',
         status: 'available',
         price: 100,
       },
@@ -113,9 +109,9 @@ export const lodgings: Lodging[] = [
 
 export const lodgingMock: Lodging[] = [
   {
-    id: 1,
+    entityId: 1,
     address: {
-      id: 'string',
+      entityId: 'string',
       city: 'string',
       country: 'string',
       postalCode: 'string',
