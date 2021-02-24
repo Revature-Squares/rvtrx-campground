@@ -13,7 +13,6 @@ import { EditableComponent } from './editable/editable.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ACCOUNT_EDITING_SERVICE } from './account-editing.token';
 import { GenericEditingService } from 'src/app/services/editable/generic-editing.service';
-
 @NgModule({
   declarations: [
     AccountComponent,
