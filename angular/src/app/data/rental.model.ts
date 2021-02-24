@@ -20,7 +20,4 @@ export interface Rental {
   size: string;
   status: string;
   lodgingRentalId?: number;
-  size: string;
-  capacity: number;
-  SiteName: string;
 }
