@@ -42,17 +42,9 @@ describe('RentalComponent', () => {
       lotNumber: '3',
       size: '5x5',
       capacity: 2,
-<<<<<<< HEAD
       siteName: 'tent',
       status: 'available',
       price: 100,
     };
-=======
-      SiteName: 'tent',
-      status: 'available',
-      price: 100,
-    };
-
->>>>>>> cbcce67... rebase issues fixed?
   });
 });
