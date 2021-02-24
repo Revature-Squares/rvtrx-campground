@@ -16,7 +16,7 @@
       }
     },
     "lodging": {
-      "base": "http://localhost:8002/rest/lodging/0/",
+      "base": "http://campgroundlodgingapi.azurewebsites.net/rest/lodging/0/",
       "uri": {
         "lodging": "lodging",
         "rental": "rental",
