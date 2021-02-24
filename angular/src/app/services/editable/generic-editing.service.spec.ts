@@ -30,11 +30,4 @@ describe('AccountEditingService', () => {
     });
     service.update(partial);
   });
-
-  it('Should emit a profule', () => {
-    service.profileEmitter.subscribe((e) => {
-      expect(e).toBeTruthy();
-    });
-    service.update(partial);
-  });
 });
