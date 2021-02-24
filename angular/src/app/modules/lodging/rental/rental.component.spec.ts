@@ -40,7 +40,6 @@ describe('RentalComponent', () => {
     const rental: Rental = {
       id: '3',
       lotNumber: '3',
-<<<<<<< HEAD
       size: '5x5',
       capacity: 2,
 <<<<<<< HEAD
@@ -50,11 +49,6 @@ describe('RentalComponent', () => {
     };
 =======
       SiteName: 'tent',
-=======
-        size: '5x5',
-        capacity: 2,
-        SiteName: 'tent',
->>>>>>> 1e95a88... fixed issues in testing with rental-unit
       status: 'available',
       price: 100,
     };

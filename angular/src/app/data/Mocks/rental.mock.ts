@@ -14,13 +14,13 @@ export const rentals: Rental[] = [
   {
     id: '2',
     lotNumber: '2',
-<<<<<<< HEAD
     size: '5x5',
     capacity: 5,
 <<<<<<< HEAD
     siteName: 'rv',
 =======
     SiteName: 'rv',
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> cbcce67... rebase issues fixed?
 =======
@@ -30,6 +30,8 @@ export const rentals: Rental[] = [
       SiteName: 'rv',
 >>>>>>> 1e95a88... fixed issues in testing with rental-unit
 >>>>>>> 39df1a4... rebase stuff and things
+=======
+>>>>>>> ad8c0f5... stage changes problem resolved
     status: 'available',
     price: 100,
   },
