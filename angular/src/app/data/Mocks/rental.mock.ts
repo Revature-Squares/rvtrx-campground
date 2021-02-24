@@ -16,7 +16,11 @@ export const rentals: Rental[] = [
     lotNumber: '2',
     size: '5x5',
     capacity: 5,
+<<<<<<< HEAD
     siteName: 'rv',
+=======
+    SiteName: 'rv',
+>>>>>>> cbcce67... rebase issues fixed?
     status: 'available',
     price: 100,
   },
