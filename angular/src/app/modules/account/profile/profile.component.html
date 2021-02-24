@@ -12,7 +12,7 @@
           </figure>
           <br />
           <div>
-            <p class="heading">adult</p>
+            <p class="heading">{{profile.type}}</p>
             <uic-editable
               [(data)]="profile.givenName"
               [(editMode)]="editMode"
@@ -37,7 +37,6 @@
 
   <div class = 'level-right'>
     <new-profile-form>
-      
     </new-profile-form>
   </div>
 </div>

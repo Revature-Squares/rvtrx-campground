@@ -1,6 +1,7 @@
-import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter, Inject, Input } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { PostProfile, Profile } from '../../../data/profile.model';
+
 @Component({
   selector: 'new-profile-form',
   templateUrl: 'new-profile-form.component.html',
@@ -8,26 +9,22 @@ import { PostProfile, Profile } from '../../../data/profile.model';
 })
 export class NewProfileFormComponent implements OnInit {
   showModal = false;
-
   @Output() newProfile: EventEmitter<PostProfile> = new EventEmitter<PostProfile>();
 
   ProfileForm = new FormGroup({
     Email: new FormControl('', [
       Validators.required,
       /**   diacritical marks, spaces in name, single quotes   */
-      Validators.pattern("^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"),
+      Validators.pattern('^[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,4}$'),
     ]),
 
     GivenName: new FormControl('', [
       Validators.required,
       /** First Name **/
-      Validators.pattern(/^[a-zA-z]/)
-    ]),
-    /** Last Name**/
-    FamilyName: new FormControl('', [
-      Validators.required,
       Validators.pattern(/^[a-zA-z]/),
     ]),
+    /** Last Name**/
+    FamilyName: new FormControl('', [Validators.required, Validators.pattern(/^[a-zA-z]/)]),
 
     Type: new FormControl('', [
       Validators.required,
@@ -61,8 +58,7 @@ export class NewProfileFormComponent implements OnInit {
     return this.ProfileForm.get('ImageUri') as FormControl;
   }
 
-  get FamilyName() : FormControl 
-  {
+  get FamilyName(): FormControl {
     return this.ProfileForm.get('FamilyName') as FormControl;
   }
 
@@ -71,18 +67,18 @@ export class NewProfileFormComponent implements OnInit {
   /**
    * Submit event
    *
-   * @event NewProfileformComponent- Triggered by form submission
+   * @fires NewProfileformComponent- Triggered by form submission
    *
    */
   onSubmit(): void {
     this.showModal = !this.showModal;
     const profile = {
-      email : this.ProfileForm.value.Email,
+      email: this.ProfileForm.value.Email,
       givenName: this.ProfileForm.value.GivenName,
       familyName: this.ProfileForm.value.FamilyName,
-      type: this.ProfileForm.value.Type, 
+      type: this.ProfileForm.value.Type,
       imageUri: this.ProfileForm.value.ImageURI,
-    } as Profile;
+    } as PostProfile;
     this.newProfile.emit(profile);
   }
 

@@ -1,4 +1,4 @@
-import { Component, Input, Inject, OnInit, Output, EventEmitter} from '@angular/core';
+import { Component, Input, Inject, OnInit, Output, EventEmitter } from '@angular/core';
 import { Profile } from '../../../data/profile.model';
 import { Account } from '../../../data/account.model';
 import { GenericEditingService } from '../../../services/editable/generic-editing.service';
@@ -13,8 +13,7 @@ import { ACCOUNT_EDITING_SERVICE } from '../../account/account-editing.token';
 /**
  * Class representing a user's profile information
  */
-export class ProfileComponent 
-{
+export class ProfileComponent {
   @Input() profiles!: Profile[];
 
   editMode = false;

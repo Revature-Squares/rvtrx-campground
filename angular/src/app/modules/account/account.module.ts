@@ -26,7 +26,7 @@ import { NewProfileFormComponent } from './profile/new-profile-form-component';
     NewAddressFormComponent,
     NewPaymentFormComponent,
     EditableComponent,
-    NewProfileFormComponent
+    NewProfileFormComponent,
   ],
   providers: [
     {

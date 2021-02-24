@@ -91,14 +91,12 @@ export class AccountService {
   }
 
   /**
-  *
-  *@param profile
-  * 
-  */
+   *
+   *@param profile
+   *
+   */
 
-  postProfile(profile: PostProfile): Observable<PostProfile> 
-  {
+  postProfile(profile: PostProfile): Observable<PostProfile> {
     return this.profilesUrl$.pipe(concatMap((url1) => this.http.post<PostProfile>(url1, profile)));
   }
-  
 }
