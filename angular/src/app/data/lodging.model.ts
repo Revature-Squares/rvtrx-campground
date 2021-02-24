@@ -1,4 +1,3 @@
-import { Address } from './address.model';
 import { Review } from './review.model';
 import { Rental } from './rental.model';
 import { Image } from './image.model';
