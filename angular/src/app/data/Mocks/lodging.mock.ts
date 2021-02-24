@@ -17,9 +17,16 @@ export const testLodgings: Lodging[] = [
       {
         id: '1',
         lotNumber: '1',
+<<<<<<< HEAD
         size: '5x5',
         capacity: 2,
         siteName: 'tent',
+=======
+          size: '5x5',
+          capacity: 2,
+          SiteName: 'tent',
+
+>>>>>>> 39df1a4... rebase stuff and things
         status: 'available',
         price: 100,
       },
