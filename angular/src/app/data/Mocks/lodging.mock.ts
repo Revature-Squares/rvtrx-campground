@@ -19,7 +19,12 @@ export const testLodgings: Lodging[] = [
         lotNumber: '1',
         size: '5x5',
         capacity: 2,
+<<<<<<< HEAD
         siteName: 'tent',
+=======
+        SiteName: 'tent',
+
+>>>>>>> 4c9aa14247e642cc99a57715ea9b82b20d1fe0cd
         status: 'available',
         price: 100,
       },
@@ -80,7 +85,11 @@ export const lodgings: Lodging[] = [
         lotNumber: '1',
         size: '5x5',
         capacity: 2,
+<<<<<<< HEAD
         siteName: 'tent',
+=======
+        SiteName: 'tent',
+>>>>>>> 4c9aa14247e642cc99a57715ea9b82b20d1fe0cd
         status: 'available',
         price: 100,
       },
